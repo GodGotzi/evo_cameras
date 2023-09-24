@@ -20,8 +20,7 @@ git = "https://github.com/GodGotzi/evo"
 default-features = false
 
 [dev-dependencies.bevy]
-version = "0.11"
-# git = "https://github.com/bevyengine/bevy"
+git = "https://github.com/GodGotzi/evo"
 # rev = "f3de12bc"
 # branch = "main"
 default-features = false
@@ -37,7 +36,7 @@ features = [
 ]
 
 [target.'cfg(target_os = "linux")'.dev-dependencies.bevy]
-version = "0.11"
+git = "https://github.com/GodGotzi/evo"
 features = [
     "bevy_asset",
     "bevy_core_pipeline",
