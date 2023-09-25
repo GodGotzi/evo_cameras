@@ -14,13 +14,13 @@ approx = "0.5"
 serde = { version = "1.0", optional = true }
 
 [dependencies.bevy]
-git = "https://github.com/GodGotzi/evo"
+version = "0.11.2"
 # rev = "f3de12bc"
 # branch = "main"
 default-features = false
 
 [dev-dependencies.bevy]
-git = "https://github.com/GodGotzi/evo"
+version = "0.11.2"
 # rev = "f3de12bc"
 # branch = "main"
 default-features = false
@@ -36,7 +36,7 @@ features = [
 ]
 
 [target.'cfg(target_os = "linux")'.dev-dependencies.bevy]
-git = "https://github.com/GodGotzi/evo"
+version = "0.11.2"
 features = [
     "bevy_asset",
     "bevy_core_pipeline",
